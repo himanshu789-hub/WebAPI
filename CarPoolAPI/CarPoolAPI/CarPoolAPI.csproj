@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20200210043141_Models.cs" />
+    <Compile Remove="Migrations\20200210043141_Models.Designer.cs" />
+    <Compile Remove="Migrations\20200210051138_Migration.cs" />
+    <Compile Remove="Migrations\20200210051138_Migration.Designer.cs" />
+    <Compile Remove="Migrations\20200210054926_CarPool.cs" />
+    <Compile Remove="Migrations\20200210054926_CarPool.Designer.cs" />
+    <Compile Remove="Migrations\20200210055530_Models.cs" />
+    <Compile Remove="Migrations\20200210055530_Models.Designer.cs" />
+    <Compile Remove="Migrations\20200210065436_Models.cs" />
+    <Compile Remove="Migrations\20200210065436_Models.Designer.cs" />
+    <Compile Remove="Migrations\20200210144805_CarPool.cs" />
+    <Compile Remove="Migrations\20200210144805_CarPool.Designer.cs" />
+    <Compile Remove="Migrations\20200210145326_Models.cs" />
+    <Compile Remove="Migrations\20200210145326_Models.Designer.cs" />
+    <Compile Remove="Migrations\20200210145754_CarPool.cs" />
+    <Compile Remove="Migrations\20200210145754_CarPool.Designer.cs" />
+    <Compile Remove="Migrations\20200210150310_CarPool.cs" />
+    <Compile Remove="Migrations\20200210150310_CarPool.Designer.cs" />
+    <Compile Remove="Migrations\20200210151357_CarPool.cs" />
+    <Compile Remove="Migrations\20200210151357_CarPool.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+</Project>
